@@ -31,13 +31,7 @@ An interactive, single-file R Shiny app for modelling infectious disease outbrea
 
 ## Installation
 
-**1. Clone the repository**
-```bash
-git clone https://github.com/yourusername/seir-simulator.git
-cd seir-simulator
-```
-
-**2. Install R dependencies** (run once inside R)
+**1. Install R dependencies** (run once inside R)
 ```r
 install.packages(c("shiny", "bslib", "plotly", "deSolve", "dplyr", "tidyr", "scales", "DT", "purrr"))
 ```
@@ -51,10 +45,10 @@ rinstall.packages("/path/to/deSolve_x.x.x.tar.gz", repos = NULL, type = "source"
 ```
 **3. Run the app**
 ```r
-shiny::runApp("seir_app_fixed.R")
+shiny::runApp("app.R")
 ```
 
-Or open `seir_app_fixed.R` in RStudio and click **Run App**.
+Or open `app.R` in RStudio and click **Run App**.
 
 ---
 
