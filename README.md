@@ -4,7 +4,7 @@ An interactive, single-file R Shiny app for modelling infectious disease outbrea
 
 ![R](https://img.shields.io/badge/R-%3E%3D4.0-276DC3?style=flat&logo=r&logoColor=white)
 ![Shiny](https://img.shields.io/badge/Shiny-app-4e9af1?style=flat)
-![License](https://img.shields.io/badge/license-MIT-green?style=flat)
+![License](https://img.shields.io/badge/license-GNU%20GPL%20v3-blue?style=flat)
 
 ---
 
