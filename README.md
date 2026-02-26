@@ -1,6 +1,6 @@
 # ⬡ SEIR Epidemic Simulator
 
-An interactive, single-file R Shiny app for modelling infectious disease outbreaks. Built for public health exploration and epidemiology education — no external data required.
+An interactive, single-file R Shiny app for modelling infectious disease outbreaks. Built for public health exploration and epidemiology education
 
 ![R](https://img.shields.io/badge/R-%3E%3D4.0-276DC3?style=flat&logo=r&logoColor=white)
 ![Shiny](https://img.shields.io/badge/Shiny-app-4e9af1?style=flat)
@@ -23,9 +23,11 @@ An interactive, single-file R Shiny app for modelling infectious disease outbrea
 
 ## Screenshots
 
-> _Add screenshots here once deployed_
+<img width="1920" height="1080" alt="Screenshot (34)" src="https://github.com/user-attachments/assets/365ceb8d-dde6-4a6e-9a72-4f6774faed03" />
+<img width="1920" height="1080" alt="Screenshot (33)" src="https://github.com/user-attachments/assets/9aac6956-57e5-4b1d-90ed-e59bbc4c3cd1" />
+<img width="1920" height="1080" alt="Screenshot (36)" src="https://github.com/user-attachments/assets/00e88cc8-4989-4619-a934-151f68896de0" />
+<img width="1920" height="1080" alt="Screenshot (35)" src="https://github.com/user-attachments/assets/958e8b2a-6276-411f-b9bb-200564cc0a26" />
 
----
 
 ## Installation
 
@@ -40,6 +42,13 @@ cd seir-simulator
 install.packages(c("shiny", "bslib", "plotly", "deSolve", "dplyr", "tidyr", "scales", "DT", "purrr"))
 ```
 
+⚠️ deSolve is not available on CRAN and must be installed manually from the archived version.
+Download the latest archived .tar.gz from the CRAN archive:
+https://cran.r-project.org/src/contrib/Archive/deSolve/
+Then install it in R pointing to the downloaded file:
+```r
+rinstall.packages("/path/to/deSolve_x.x.x.tar.gz", repos = NULL, type = "source")
+```
 **3. Run the app**
 ```r
 shiny::runApp("seir_app_fixed.R")
