@@ -144,5 +144,4 @@ dV/dt =  ν(t) · S
 ---
 
 ## License
-
-MIT License. See `LICENSE` for details.
+See `LICENSE` for details.
